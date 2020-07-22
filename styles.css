@@ -2,8 +2,40 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+.upper-header-block{
+  color: white;
+}
+
+.main-header{
+  background-image: url("images/background.jpg");
+}
+
+.shop{
+  text-align: center;
+  display: block;
+  font-size: large;
+  padding: 20px;
+}
+
+.shop i{
+  font-size:24px;
+  float: right;
+  color: black;
+}
+
+.wear-ur-fashion{
+  text-align: center;
+  padding: 80px;
+  color: rgb(53, 51, 51);
+}
+
 .clothtype{
   padding-bottom: 15px;
+}
+
+#clothtype-row{
+  align-items: center;
+  justify-content: center;
 }
 
 @media (max-width: 991px) {
@@ -37,9 +69,15 @@
   padding: 10px 20px 10px 20px;
 }
 
+.section-row{
+  align-items: center;
+  justify-content: center;
+}
+
 .footer-section {
   margin-top: 30px;
   background: #262626;
+  font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -137,8 +175,33 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+.img-div{
+  text-align: center;
+}
+
+.price{
+  color: rgb(109, 109, 109);
+}
+
+.pickers{
+  color: rgb(109, 109, 109);
+}
+
+#prod-img{
+  width: 50%;
+  height: 100%;
+}
+
 .description{
   color: rgb(109, 109, 109);
+}
+
+.description h5{
+  color: black;
+}
+
+.quant-inp{
+  width: 10%;
 }
 
 .default {
